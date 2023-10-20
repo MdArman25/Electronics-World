@@ -1,0 +1,34 @@
+[
+      {
+        "id":1,
+        "name": "Smartphones",
+        "img": "https://i.ibb.co/nm0DQ3r/android-smartphone-device-mockup-165789-474.jpg"
+      },
+      {
+        "id":2,
+        "name": "Computers",
+        "img": "https://i.ibb.co/47ZwYN3/3d-workstation-with-computer-peripheral-devices-23-2150714209.jpg"
+      },
+      {
+        "id":3,
+        "name": "Watch",
+        "img": "https://i.ibb.co/svgjvkf/realistic-clock-watch-chronograph-silver-black-red-leather-strap-men-luxury-isolated-vector-33869-33.jpg"
+      },
+      {
+        "id":4,
+        "name": "Headphones",
+        "img": "https://i.ibb.co/WBV2kNw/vibrant-neon-light-wireless-headphones-pictures-black-background-ai-generated-art-848903-5929.jpg"
+      },
+      {
+        "id":5,
+        "name": "Cameras",
+        "img": "https://i.ibb.co/5LsJ3M4/camera-with-word-canon-bottom-655090-86156.jpghttps://example.com/cameras.jpg"
+      },
+      {
+        "id":6,
+        "name": "Tv",
+        "img": "https://i.ibb.co/8BVHQkt/modern-interior-with-tree-glass-winegenerative-ai-221128-11059.jpg"
+      }
+    ]
+  
+  
