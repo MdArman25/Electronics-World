@@ -63,7 +63,7 @@ const Navber = () => {
         <li className="">Contact</li>
       </NavLink>
       {user?.email && (
-        <ul className="flex gap-5">
+        <ul className="md:flex gap-5">
       <NavLink
         to="/addcard"
         className={({ isActive, isPending }) =>
