@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "Smartphone",
+      "img": "https://i.ibb.co/sK87GVY/smartphone-with-credit-card-mockup-13598-117.jpg",
+      "BrandName": "Samsung",
+      "price": 599.99,
+      "rating": 4.5,
+      "btn": "Buy Now",
+      "shortDetails": "5.5-inch display, 64GB storage, 16MP camera"
+    },
+    {
+      "id": 2,
+      "name": "Iphone 14",
+      "img": "https://i.ibb.co/TYmg4K7/smartphone-blank-cover-3d-render-465438-2.jpg",
+      "BrandName": "Iphone",
+      "price": 899.99,
+      "rating": 4.2,
+      "btn": "Add to Cart",
+      "shortDetails": "15.6-inch screen, 140GB RAM"
+    },
+    {
+      "id": 3,
+      "name": "Smart TV",
+      "img": "https://i.ibb.co/D4ss1mh/television-mock-up-design-1314-160.jpg",
+      "BrandName": "Sony",
+      "price": 799.99,
+      "rating": 4.4,
+      "btn": "Buy Now",
+      "shortDetails": "55-inch 4K UHD, Smart TV with HDR"
+    },
+    {
+      "id": 4,
+      "name": "Headphones",
+      "img": "https://i.ibb.co/QKBty6g/most-amazing-realistic-hd-8k-wallpaper-stock-photographic-image-915071-12039.jpg",
+      "BrandName": "Bose",
+      "price": 199.99,
+      "rating": 4.8,
+      "btn": "Add to Cart",
+      "shortDetails": "Wireless over-ear headphones with noise-cancellation"
+    },
+    {
+      "id": 5,
+      "name": "HeadPhone",
+          "img": "https://i.ibb.co/L0Qk9qZ/wireless-headphones-abstract-modern-design-187299-79.jpg",
+      "BrandName": "Samsung",
+      "price": 499.99,
+      "rating": 4.7,
+      "btn": "Buy Now",
+      "shortDetails": "10.2-inch Smart with Retina display, 128GB"
+    },
+    {
+      "id": 6,
+      "name": "Camera",
+      "img": "https://i.ibb.co/8dxzC8v/world-photography-day-with-camera-photography-tools-3d-illustration-banner-175994-6079.jpg",
+      "BrandName": "Canon",
+      "price": 599.99,
+      "rating": 4.6,
+      "btn": "Add to Cart",
+      "shortDetails": "DSLR camera with 18-55mm lens"
+    },
+    {
+      "id": 7,
+      "name": "Music Box",
+      "img": "https://i.ibb.co/tzh84QF/mqdefault.jpg",
+      "BrandName": "Fitbit",
+      "price": 149.99,
+      "rating": 4.2,
+      "btn": "Buy Now",
+      "shortDetails": "Fitness tracker with heart rate monitor"
+    },
+    {
+      "id": 8,
+      "name": "Smart Tv",
+      "img": "https://i.ibb.co/VBdtPF8/red-wine-lafite-wine-glass-goblet-elegant-romantic-drink-wallpaper-background-illustration-916211-14.jpg",
+      "BrandName": "JBL",
+      "price": 79.99,
+      "rating": 4.3,
+      "btn": "Add to Cart",
+      "shortDetails": "Portable Bluetooth speaker with 10 hours of playtime"
+    },
+    {
+      "id": 9,
+      "name": "Computer",
+      "img": "https://i.ibb.co/0Gt2Ky2/unleashing-innovation-power-digital-technology-background-ai-generative-649024-4126.jpg",
+      "BrandName": "Apple",
+      "price": 399.99,
+      "rating": 4.9,
+      "btn": "Buy Now",
+      "shortDetails": "PlayStation 5 with 4K gaming and ray tracing"
+    }
+  ]
+  

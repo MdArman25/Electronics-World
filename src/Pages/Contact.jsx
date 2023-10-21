@@ -1,16 +1,17 @@
-import ContactFrom from "../Components/ContactFrom";
-import GoogleMap from "../Components/GoogleMap";
+// import ContactFrom from "../Components/ContactFrom";
+// import MapGoogle from '../Components/GoogleMap';
 
 
-const Contact = () => {
-    return (
-        <div>
-            <ContactFrom></ContactFrom>
-            <div className='w-full'>
-    <GoogleMap></GoogleMap>
-</div>
-        </div>
-    );
-};
+// const Contact = () => {
+//     return (
+//         <div className="mt-20">
+//             <div className='w-full '>
+// <MapGoogle></MapGoogle>
+    
+// </div>
+//             <ContactFrom></ContactFrom>
+//         </div>
+//     );
+// };
 
-export default Contact;
+// export default Contact;

@@ -1,12 +1,12 @@
 [
       {
         "id":1,
-        "name": "Smartphones",
+        "name": "SmartPhones",
         "img": "https://i.ibb.co/nm0DQ3r/android-smartphone-device-mockup-165789-474.jpg"
       },
       {
         "id":2,
-        "name": "Computers",
+        "name": "Computer",
         "img": "https://i.ibb.co/47ZwYN3/3d-workstation-with-computer-peripheral-devices-23-2150714209.jpg"
       },
       {
@@ -16,13 +16,13 @@
       },
       {
         "id":4,
-        "name": "Headphones",
+        "name": "HeadPhone",
         "img": "https://i.ibb.co/WBV2kNw/vibrant-neon-light-wireless-headphones-pictures-black-background-ai-generated-art-848903-5929.jpg"
       },
       {
         "id":5,
-        "name": "Cameras",
-        "img": "https://i.ibb.co/5LsJ3M4/camera-with-word-canon-bottom-655090-86156.jpghttps://example.com/cameras.jpg"
+        "name": "Camera",
+        "img": "https://i.ibb.co/5LsJ3M4/camera-with-word-canon-bottom-655090-86156.jpghttps://example.com/cameras.jpghttps://i.ibb.co/5LsJ3M4/camera-with-word-canon-bottom-655090-86156.jpghttps://example.com/cameras.jpg"
       },
       {
         "id":6,
