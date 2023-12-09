@@ -53,7 +53,7 @@ const ShowMyCart = ({ card , Cards, setCards }) => {
             </div>
             <div className="flex-1 min-w-0">
               <h2 className="card-title">
-                {name}
+                 {name}
                 <div className="badge badge-secondary">{Type}</div>
               </h2>
               {/* <p className="text-sm font-medium text-gray-900 truncate dark:text-white">

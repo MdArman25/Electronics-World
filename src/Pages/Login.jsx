@@ -5,7 +5,9 @@ import { useState } from "react";
 import Context from "../UseHook/Context";
 import Swal from "sweetalert2";
 import toast from "react-hot-toast";
+
 const Login = () => {
+
      const [ShowPassword,setShowPassword]=useState(false)
      const location = useLocation()
      console.log(location);
@@ -18,7 +20,16 @@ const {signInWithGoogle,signInUser}=Context()
   const passwordvalue = e.target.password.value;
   signInUser(emailvalue,passwordvalue)
   .then((result) =>{
-    navigate(location.state?location.state:'/')
+    // fetch('http://localhost:5000/jwt',{
+    //     method:'POST',
+    //     headers: {
+    //         "content-type": "application/json",
+    //       },
+    //       body: JSON.stringify(emailvalue),
+    // }).then(res=>res.json()).then(data=>{
+    //     console.log(data);    })
+    //     console.log(emailvalue);
+    // navigate(location.state?location.state:'/')
     Swal.success('Login Successfully')
 
   })
@@ -29,7 +40,8 @@ const {signInWithGoogle,signInUser}=Context()
 }
 const handleGoogleLogin = () => {
     signInWithGoogle().then((result) =>{ 
-        navigate(location.state?location.state:'/')
+        // navigate(location.state?location.state:'/')
+       
         Swal.success('Login Successfully')
        
     })

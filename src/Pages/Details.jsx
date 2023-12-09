@@ -14,7 +14,7 @@ const handleAddCart =()=>{
     headers:{
       'content-type':'application/json'
     },
-    body:JSON.stringify(AddProduct)
+    body:JSON.stringify(AddProduct),credentials:"include"
    })
    .then(res =>res.json())
    .then(data=>{

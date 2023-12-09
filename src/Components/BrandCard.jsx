@@ -9,12 +9,13 @@ const BrandCard = ({brand}) => {
     // useEffect(() => {
     //     AOS.init({
     //       duration: 1000, 
-    //       once: true,   
+        //   once: true,   
     //     });
     //   }, []);
     return (
         <div>
-           
+           {/* <link rel="stylesheet" href="" className="" /> */}
+        {/* <a href=""></a> */}
 <Link to={`Brand/${name}`}><div   className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
     <p>
         <img className="rounded-lg h-60 mx-auto" src={img} alt="" />

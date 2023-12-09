@@ -1,3 +1,4 @@
+import axios from "axios";
 import Swal from "sweetalert2";
 
 const AddProduct = () => {
@@ -25,22 +26,15 @@ const AddProduct = () => {
     };
 
     console.log(NewProduct);
-
-    // send data to the server
-    fetch(
-      "https://assignment-njaqjo60c-md-armans-projects-bf1c950b.vercel.app/AddProduct",
-      {
-        method: "POST",
-        headers: {
-          "content-type": "application/json",
-        },
-        body: JSON.stringify(NewProduct),
-      }
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        if (data.insertedId) {
+    axios
+      .post(
+        ["https://assignment-njaqjo60c-md-armans-projects-bf1c950b.vercel.app/AddProduct",'http://localhost:5173/AddProduct'],
+        NewProduct,
+       
+      )
+      .then((res) => {
+        console.log(res.data);
+        if (res.data.insertedId) {
           Swal.fire({
             title: "Success!",
             text: "Product Added Successfully",
@@ -49,6 +43,30 @@ const AddProduct = () => {
           });
         }
       });
+
+    // send data to the server
+    // fetch(
+    //   "https://assignment-njaqjo60c-md-armans-projects-bf1c950b.vercel.app/AddProduct",
+    //   {
+    //     method: "POST",
+    //     headers: {
+    //       "content-type": "application/json",
+    //     },
+    //     body: JSON.stringify(NewProduct),
+    //   }
+    // )
+    //   .then((res) => res.json())
+    //   .then((data) => {
+    //     console.log(data);
+    //     if (data.insertedId) {
+    //       Swal.fire({
+    //         title: "Success!",
+    //         text: "Product Added Successfully",
+    //         icon: "success",
+    //         confirmButtonText: "Done",
+    //       });
+    //     }
+    //   });
   };
 
   return (
